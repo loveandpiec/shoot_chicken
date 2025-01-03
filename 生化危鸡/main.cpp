@@ -24,11 +24,11 @@ Camera* camera = nullptr;
 SDL_Window* window = nullptr;
 SDL_Renderer* renderer = nullptr;
 
-bool is_quit = false;				// 是否退出程序
+bool is_quit = false;					// 是否退出程序
 
-SDL_Texture* tex_heart = nullptr;	// 生命值图标纹理
-SDL_Texture* tex_bullet = nullptr;	// 子弹纹理
-SDL_Texture* tex_battery = nullptr;	// 炮台基座纹理
+SDL_Texture* tex_heart = nullptr;		// 生命值图标纹理
+SDL_Texture* tex_bullet = nullptr;		// 子弹纹理
+SDL_Texture* tex_battery = nullptr;		// 炮台基座纹理
 SDL_Texture* tex_crosshair = nullptr;	// 光标准星纹理
 SDL_Texture* tex_background = nullptr;	// 背景图纹理
 SDL_Texture* tex_barrel_idle = nullptr;	// 炮管默认状态纹理
